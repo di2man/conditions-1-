@@ -20,3 +20,12 @@ else:
         print(f"all numbers equals")
 
         average = (n1 + n2 + n3) / 3
+
+meters = int(input("количество метров:"))
+what = int(input("выберите меру измерения: мили - 1\т дюймі - 2\n ярды - 3"))
+if what == 1:
+    print(f"{meters} метров = meters*0.000621} миль")
+elif what == 2:
+    print(f"{meters} метров = {meters*39.37} дюймов")
+elif what == 3:
+    print(f"meters} метров = {meters*1.093613} ярдов")
